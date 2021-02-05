@@ -2,8 +2,8 @@
 #Учебный проект макет от GloAcademy
 
 #Технологии :
->HTML
->CSS
->BootsTrap
->jQuary
->JS
+  >HTML
+  >CSS
+  >BootsTrap
+  >jQuary
+  >JS
