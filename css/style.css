@@ -1,0 +1,507 @@
+*,
+*:after,
+*::before {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Myriad Pro ";
+  src: url("MyriadPro-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Pro Medium";
+  src: url("../fonts/GothamPro-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../fonts/GothamPro.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gotham Pro Light";
+  src: url("../fonts/GothamPro-Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-color: #292929;
+  color: #ffffff;
+  font-family: "Gotham Pro", sans-serif;
+  margin: 0;
+}
+.header {
+  padding-top: 50px;
+}
+
+.desription {
+  font-family: "Gotham Pro Light";
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0.12px;
+  line-height: normal;
+}
+.text-color-red {
+  color: #ff3469;
+  font-family: "Gotham Pro Medium";
+  letter-spacing: 0.12px;
+}
+
+.header-contacts {
+  text-align: right;
+}
+.header-phone {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  display: block;
+  letter-spacing: 0.2px;
+}
+.header-phone:hover {
+  background-color: grey;
+}
+.call-info {
+  color: #ffffff;
+  font-size: 12px;
+  display: block;
+  letter-spacing: 0.12px;
+}
+.callback {
+  padding-top: 10px;
+  color: #ff3469;
+  font-size: 16px;
+  letter-spacing: 0.16px;
+  display: block;
+}
+
+.flowers-slider {
+  width: 100%;
+  text-align: center;
+  margin-top: 83px;
+  margin-bottom: 83px;
+}
+
+.hero {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 77px;
+  border-bottom: 1px solid #4c4c4c;
+}
+.hero-title {
+  font-size: 34px;
+  text-transform: uppercase;
+  letter-spacing: 0.34px;
+  max-width: 660px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.hero-description {
+  max-width: 550px;
+  font-family: "Gotham Pro Light";
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.18px;
+  margin: auto;
+}
+.hero-cta {
+  display: block;
+  font-family: "Gotham Pro Light";
+  font-size: 19px;
+  text-transform: uppercase;
+  margin-bottom: 34px;
+}
+
+.button {
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: #ff2e55;
+  text-decoration: none;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 26px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-top: 36px;
+  border: none;
+  font-size: 18px;
+  transition: 0.2s;
+}
+.button:active {
+  font-size: 14px;
+}
+.section-title {
+  font-size: 30px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.reviews {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.reviews-slider {
+  margin-top: 100px;
+}
+.review-image {
+  width: 220px;
+  height: 220px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  font-size: 20px;
+  font-family: "Gotham Pro Light";
+  position: relative;
+  margin-right: 50px;
+}
+.review-image::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+}
+.review-image > * {
+  position: relative;
+}
+
+.review-image-1 {
+  background: #000 url(../images/review1.png);
+}
+.review-name {
+  margin-bottom: 7px;
+}
+.review-slide {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.review-text {
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 0.18px;
+}
+.review-link {
+  color: #f24841;
+  font-size: 18px;
+  letter-spacing: 0.18px;
+}
+.advantages {
+  text-align: center;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #4c4c4c;
+}
+.advantages-wrapper {
+  min-height: 85px;
+  margin-bottom: 30px;
+}
+.advantages-text {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 1.4;
+  min-width: 262px;
+}
+:root {
+  --swiper-navigation-size: 18px;
+  --swiper-theme-color: #fff;
+}
+
+.swiper-button-prev:hover {
+  color: #ff2e55;
+}
+
+.swiper-button-next:hover {
+  color: #ff2e55;
+}
+.goods {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.text-red {
+  color: #ff1844;
+}
+.section-description {
+  letter-spacing: 0.18px;
+  font-size: 18px;
+}
+.card {
+  text-align: center;
+  border: 3px solid #fff;
+  padding: 33px 35px 30px 35px;
+  margin-top: 27px;
+
+  margin-bottom: 27px;
+}
+
+.card-title {
+  margin-top: 23px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.card-label {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 7px;
+  margin-top: 20px;
+}
+.color-label {
+  width: 20px;
+  height: 20px;
+
+  cursor: pointer;
+}
+.color-input {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  z-index: -9;
+}
+.color-label.white {
+  background-color: #fff;
+}
+.color-label.begie {
+  background-color: #f7b496;
+}
+.color-label.pink {
+  background-color: #ed366e;
+}
+.color-label.red {
+  background-color: #ff0000;
+}
+.color-label.blue {
+  background-color: #12129d;
+}
+.counter-input {
+  border: 2px solid #ffffff;
+  width: 40px;
+  height: 40px;
+  background-color: #292929;
+  text-align: center;
+  color: #fff;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.counter-button {
+  color: #fff;
+  background-color: #292929;
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+}
+.counter-button:active {
+  border: 0.5px solid #fff;
+  border-radius: 15%;
+}
+.in-cart {
+  width: 100%;
+  font-size: 16px;
+  padding-top: 16px;
+  padding-bottom: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #f24841;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.in-cart:active {
+  width: 90%;
+}
+:focus {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+.more {
+  font-size: 14px;
+  color: #f24841;
+  display: block;
+  margin-top: 30px;
+}
+.more::after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 4px;
+  background: url("../images/caret-down.svg");
+  margin-left: 14px;
+  vertical-align: middle;
+}
+
+.offer {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.offer-title {
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 0.3px;
+}
+.offer-link {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  display: block;
+  margin-bottom: 65px;
+}
+.offer-label {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 20px;
+}
+.offer-tel {
+  text-decoration: none;
+  color: #fff;
+  font-size: 36px;
+  letter-spacing: 0.36px;
+}
+
+.offer-tel:hover {
+  text-decoration: underline;
+}
+.footer-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 33px;
+}
+.footer-menu-item {
+  margin-right: 30px;
+}
+.footer-menu-link {
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.social {
+  letter-spacing: 0.16px;
+  font-size: 16px;
+}
+
+.footer-info {
+  text-align: right;
+}
+
+.footer-label {
+  display: block;
+  font-size: 14px;
+}
+.footer-phone {
+  text-decoration: none;
+  letter-spacing: 0.24px;
+  font-size: 24px;
+  color: #fff;
+  padding-top: 12px;
+  padding-bottom: 13px;
+}
+.white-footer {
+  background-color: #fff;
+}
+.left-side,
+.right-side {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-logo {
+  margin-right: 50px;
+}
+.info {
+  color: #292929;
+  font-size: 12px;
+  text-align: left;
+  width: 125px;
+}
+.right-side {
+  text-align: right;
+}
+.developer {
+  color: #292929;
+  font-size: 12px;
+  font-family: "Myriad Pro";
+}
+.dev-name {
+  font-size: 12px;
+  color: #292929;
+}
+.modal {
+  display: none;
+  text-align: center;
+}
+.modal-title {
+  color: #292929;
+  font-size: 14px;
+}
+
+.modal-input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+}
+.modal-button {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .header {
+    text-align: center;
+  }
+  .header-contacts {
+    text-align: center;
+  }
+  /* .card {
+    max-width: 210px;
+  } */
+  .hero {
+    padding-top: 50px;
+  }
+  .hero-title {
+    font-size: 24px;
+    line-height: 1.6;
+  }
+  .hero-description {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .button {
+    font-size: 14px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .button:active {
+    font-size: 12px;
+  }
+
+  .colors {
+    max-width: 200px;
+    margin: auto;
+  }
+  .card-label {
+    margin: 20px auto;
+  }
+  .footer-info {
+    text-align: left;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-info {
+    text-align: left;
+  }
+  .offer {
+    text-align: center;
+  }
+  .footer-logo,
+  .info,
+  .right-side {
+    text-align: center;
+  }
+}
